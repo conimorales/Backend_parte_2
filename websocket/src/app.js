@@ -5,17 +5,13 @@ import handlebars from "express-handlebars";
 import viewsRouter from "./routes/views.router.js";
 import socket from "./socket.js";
 
-// imports routes
-const {cartsRouter} = require('./routes/cartsRouter')
-const {productsRouter} = require('./routes/productsRouter')
+import cartsRouter from "./routes/carts.router.js";
+import productsRouter from "./routes/products.router.js";
 
 const port = process.env.PORT || 8080;
 
-//const express = require('express')
+
 const app = express()
-//const cors = require('cors')
-
-
 
 // middleware
 app.use(cors())

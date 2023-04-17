@@ -1,17 +1,22 @@
 // --- imports packages ---
-import * as express from "express";
+import express from "express";
+import cors from "cors";
 import __dirname from "./utils.js";
 import handlebars from "express-handlebars";
 import viewsRouter from "./routes/views.router.js";
 import socket from "./socket.js";
+//import { cartsRouter } from "./routes/carts.router.js";
+import * as cartsRouter from "./routes/carts.router.js";
 
-import cartsRouter from "./routes/carts.router.js";
-import productsRouter from "./routes/products.router.js";
+import * as productsRouter from "./routes/products.router.js";
+
 
 const port = process.env.PORT || 8080;
 
-
 const app = express()
+
+
+
 
 // middleware
 app.use(cors())

@@ -1,8 +1,7 @@
-
-const express = require('express')
+import express from "express";
 const productsRouter = express.Router()
 
-const { gestionProd } = require('../admins/ProductManager')
+import * as gestionProd  from "../admins/ProductManager"
 
 // Methods
 productsRouter.get('/', async (req, res) => {

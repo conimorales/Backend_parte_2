@@ -1,5 +1,4 @@
-
-const fs = require("fs");
+import fs from 'fs'
 
 const path = './Products.json'
 

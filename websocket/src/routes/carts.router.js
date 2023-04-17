@@ -1,10 +1,9 @@
 // imports packages
-const express = require('express')
+
+import express from "express";
 const cartsRouter = express.Router()
 
-const { gestionCart } = require('../admins/CartManager')
-
-
+import * as gestionCart from "../admins/CartManager"
 
 
 // Methods

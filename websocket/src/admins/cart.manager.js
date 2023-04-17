@@ -130,9 +130,9 @@ class CartManager {
 const gestionCart = new CartManager(path)
 
 
-
-module.exports = {
+export default gestionCart
+/* module.exports = {
     gestionCart
 }
-
+ */
 

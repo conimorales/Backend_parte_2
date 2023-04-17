@@ -185,7 +185,9 @@ class ProductManager {
 
 const gestionProd = new ProductManager(path)
 
+
+export default gestionProd
 // exports
-module.exports = {
+/* module.exports = {
     gestionProd
-}
+} */

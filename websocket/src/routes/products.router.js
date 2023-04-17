@@ -1,7 +1,7 @@
 import express from "express";
 const productsRouter = express.Router()
 
-import * as gestionProd  from "../admins/ProductManager"
+import * as gestionProd  from "../admins/product.manager.js"
 
 // Methods
 productsRouter.get('/', async (req, res) => {
@@ -79,6 +79,9 @@ productsRouter.delete('/:pid', (req, res) => {
 })
 
 // exports
-module.exports = {
+
+
+export default productsRouter
+/* module.exports = {
     productsRouter,
-}
+} */

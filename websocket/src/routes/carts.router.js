@@ -3,7 +3,7 @@
 import express from "express";
 const cartsRouter = express.Router()
 
-import * as gestionCart from "../admins/CartManager"
+import * as gestionCart from "../admins/cart.manager.js"
 
 
 // Methods
@@ -67,7 +67,10 @@ cartsRouter.post('/:cid/product/:pid', async (req, res) => {
 
 
 // exports
-module.exports = {
+
+export default cartsRouter
+
+/* module.exports = {
     cartsRouter,
-}
+} */
 

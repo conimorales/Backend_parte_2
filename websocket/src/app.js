@@ -26,12 +26,12 @@ app.use(express.urlencoded({ extended: true }))
 
 //==== Handlebars setting ====
 app.engine('handlebars', handlebars.engine())
-app.set('views', `${_dirname}/views`)
+app.set('views', `${__dirname}/views`)
 app.set('view engine', 'handlebars')
 
 
 //==== Static files ====
-app.use(express.static(`${_dirname}/public`));
+app.use(express.static(`${__dirname}/public`));
 
 // routes
 app.use('/', viewsRouter)

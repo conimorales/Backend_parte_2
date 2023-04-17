@@ -1,0 +1,33 @@
+[
+	{
+		"title": "Producto laaala",
+		"description": "Lorem ipsum dolor sit amet",
+		"code": "BOGOF",
+		"price": 995,
+		"status": true,
+		"stock": 3,
+		"thumbnail": [
+			"http://placehold.it/300x300/999/CCC"
+		]
+	},
+	{
+		"title": "Product 2",
+		"description": "Lorem ipsum dolor sit amet",
+		"code": "BOF",
+		"price": "99",
+		"status": true,
+		"stock": 4,
+		"thumbnail": "http://placehold.it/300x300/999/CCC"
+	},
+	{
+		"title": "prueba",
+		"description": "prueba",
+		"code": "kdjkd",
+		"price": null,
+		"status": true,
+		"stock": 12,
+		"thumbnail": [
+			null
+		]
+	}
+]

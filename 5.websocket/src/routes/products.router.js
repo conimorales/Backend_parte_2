@@ -78,10 +78,4 @@ productsRouter.delete('/:pid', (req, res) => {
     res.send(response)
 })
 
-// exports
-
-
 export default productsRouter
-/* module.exports = {
-    productsRouter,
-} */

@@ -23,7 +23,7 @@
 		"title": "prueba",
 		"description": "prueba",
 		"code": "kdjkd",
-		"price": null,
+		"price": 200,
 		"status": true,
 		"stock": 12,
 		"thumbnail": [

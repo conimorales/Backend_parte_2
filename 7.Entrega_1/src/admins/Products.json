@@ -1,0 +1,47 @@
+[
+	{
+
+		"title": "Product 1",
+		"description": "Lorem ipsum dolor sit amet",
+		"price": "99",
+		"thumbnail": "http://placehold.it/300x300/999/CCC",
+		"code": "BOGOF",
+		"stock": 3
+	},
+	{
+
+		"title": "Product 2",
+		"description": "Lorem ipsum dolor sit amet",
+		"price": "99",
+		"thumbnail": "http://placehold.it/300x300/999/CCC",
+		"code": "BOGOF",
+		"stock": 4
+	},
+	{
+
+		"title": "Product 3",
+		"description": "Lorem ipsum dolor sit amet",
+		"price": "99",
+		"thumbnail": "http://placehold.it/300x300/999/CCC",
+		"code": "AKSK",
+		"stock": 5
+	},
+	{
+
+		"title": "Product 5",
+		"description": "lal",
+		"price": 20,
+		"thumbnail": "dd",
+		"code": "AKKAS",
+		"stock": 4
+	},
+	{
+
+		"title": "Product 6",
+		"description": "lal",
+		"price": 20,
+		"thumbnail": "dd",
+		"code": "AKK2",
+		"stock": 4
+	}
+]
